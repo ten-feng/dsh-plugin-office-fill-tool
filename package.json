@@ -1,0 +1,37 @@
+{
+  "name": "dsh-plugin-office-fill-tool",
+  "version": "0.2.0",
+  "description": "Batch-generate Office files from templates and data ledgers, returning the generated file list.",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "bin",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "office",
+    "excel",
+    "word"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-rc.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ten-feng/dsh-plugin-office-fill-tool.git"
+  },
+  "homepage": "https://github.com/ten-feng/dsh-plugin-office-fill-tool#readme",
+  "license": "MIT"
+}

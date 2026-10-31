@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-office-fill-tool",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "Batch-generate Office files from templates and data ledgers, returning the generated file list.",
   "type": "module",
   "main": "index.js",
